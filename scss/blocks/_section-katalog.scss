@@ -1,0 +1,30 @@
+.section-one {
+    .container {
+        display: grid;
+        grid-template-columns: 370px 376px 377px;
+        grid-template-rows: repeat(6, 74px);
+        gap: 30px 40px;
+        padding-bottom: 59px;
+
+        .katalog {
+            display: flex;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+            gap: 25px;
+
+            h1 {
+                line-height: 20px;
+                font-size: 20px;
+                padding-top: 27px;
+                padding-bottom: 27px;
+            }
+
+            .katalog__img {
+                padding: 7px;
+                background-color: #F3F3F3;
+                border-radius: 7px;
+            }
+        }
+    }
+}
